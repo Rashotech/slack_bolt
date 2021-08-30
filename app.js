@@ -76,8 +76,7 @@ bot.event('app_home_opened', async ({ event, client }) => {
           callback_id: 'home_view',
   
           /* body of the view */
-          blocks: HomeBlock,
-          text: "Slack Bot"
+          blocks: HomeBlock
         }
       });
     }
